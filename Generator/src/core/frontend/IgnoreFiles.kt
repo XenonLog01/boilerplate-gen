@@ -1,37 +1,13 @@
 package core.frontend
 
 const val BASE_GITIGNORE =
-"""/.idea/
-/build/
-/test/
-/out/
-
-/.gradle/
-gradle.properties
-
-*.class
-*.log
-*.ctxt
-*.jar
-
+"""
 *.o
 *.ko
 *.d
 *.obj
 *.elf
-
-__pycache__/
-*.so
-*.egg
-MANIFEST
-*.manifest
-*.spec
-.env
-.venv
-venv/
-ENV/
-env.bak/
-venv.bak/
+*.a
 
 *.exe
 *.dll

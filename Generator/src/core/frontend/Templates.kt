@@ -22,5 +22,3 @@ class CFile(val fileName: String): Language(fileName) {
 
     val header = CHeaderFile(fileName)
 }
-
-class EmptyProject(name: String, license: String): Project(name, license)
