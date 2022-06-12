@@ -1,4 +1,4 @@
-#Boilerplate generator
+# Boilerplate generator
 
 This is a simple project I've created simply to speed up the development of other projects.
 It currently only supports c files, but this is expected to change rapidly. Feel free to 
