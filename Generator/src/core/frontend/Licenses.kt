@@ -1,9 +1,9 @@
 package core.frontend
 
-import java.time.LocalDateTime
+import java.time.LocalDate
 
 fun getYear(): String {
-    return LocalDateTime.now().toString().split("-")[0]
+    return LocalDate.now().year.toString()
 }
 
 fun genMitLicense(name: String): String {
